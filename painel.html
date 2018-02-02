@@ -1,0 +1,244 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+	<meta charset="UTF-8">
+	<title>Web-Mars Painel de Controle</title>
+
+	<!--Definição da viewport-->
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+	<link href="https://fonts.googleapis.com/css?family=Lato:300,400,700" rel="stylesheet">
+
+	<!--Adicinar o Css do bootstrap-->
+	<link rel="stylesheet" href="css/bootstrap.min.css" media="screen">
+
+	<link rel="stylesheet" href="css/font-awesome.min.css">
+
+
+	<!--Adicinar o Css personalizado-->
+	<link rel="stylesheet" href="css/painel.css" media="screen">
+</head>
+
+<body>
+
+<!--Inicio do painel adm-->
+
+<nav class="navbar navbar-inverse navbar-fixed-top">
+	<div class="container-fluid">
+		<!-- Brand and toggle get grouped for better mobile display -->
+		<div class="navbar-header">
+			<button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1" aria-expanded="false">
+				<span class="sr-only">Toggle navigation</span>
+				<span class="icon-bar"></span>
+				<span class="icon-bar"></span>
+				<span class="icon-bar"></span>
+			</button>
+			<a class="navbar-brand" href="#">Web Mars Ti Solutions</a>
+		</div>
+
+		<!-- Collect the nav links, forms, and other content for toggling -->
+		<div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+			
+			
+			<ul class="nav navbar-nav navbar-right ">
+				<li><a href="#"><i class="fa fa-area-chart fa-2x"></i>  </a></li>
+				<li><a href="#"><i class="fa fa-birthday-cake fa-2x"></i>  </a></li>
+				<li><a href="#"><i class="fa fa-leaf fa-2x"></i>  </a></li>
+				<li class="dropdown">
+					<a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false"><i class="fa fa-user fa-2x"></i>  <span class="caret"></span></a>
+					<ul class="dropdown-menu ">
+						<li><a href="#">Minha-Conta</a></li>
+						<li><a href="#">Trocar-Senha</a></li>
+						
+						<li role="separator" class="divider"></li>
+						<li><a href="#">Efetuar-Logof</a></li>
+					</ul>
+				</li>
+			</ul>
+		</div><!-- /.navbar-collapse -->
+	</div><!-- /.container-fluid -->
+</nav>
+
+<div class="container-fluid">
+	<div class="row">
+		<div class="col-sm-3">  <!--Começo da div class sm3 acordion-->
+
+		<div class="panel panel-primary"> <!--Inicio do header do panel-01-->
+				<div id="col-group1" role="tab" class="panel-heading">
+					<h4 class="panel-title">
+						<a href="#collistgroup1" aria-controls="collistgroup1" aria-expanded="false" data-toggle="collapse">
+						<span class="glyphicon glyphicon-file fa-2x"></span>
+						Gerenciar-Posts</a>
+					</h4>
+				</div>
+
+				<div role="tabpanel" class="panel-collapse collapse " id="collistgroup1" aria-expanded="false">
+
+					<ul class="list-group">
+						<li class="list-group-item"> <a href="#"> <i class="glyphicon glyphicon-file"></i> Criar Novo Post </a> </li>
+						<li class="list-group-item"> <a href="#"> <i class="glyphicon glyphicon-file"></i> Alterar Post</a> </li>
+						<li class="list-group-item"> <a href="#"> <i class="glyphicon glyphicon-file"></i> Excluir Post</a> </li>
+
+					</ul>
+					<div class="panel-footer"></div>
+					
+				</div>
+
+			</div> <!--Fim do header do panel-01-->
+
+			<!--Inicio do Bloco Collapse-02-->
+
+			<div class="panel panel-danger"> <!--Inicio do header do panel-->
+				<div id="col-group1" role="tab" class="panel-heading">
+					<h4 class="panel-title">
+						<a href="#collistgroup2" aria-controls="collistgroup2" aria-expanded="false" data-toggle="collapse">
+						<span class="glyphicon glyphicon-user fa-2x"></span>
+						Gerenciar-Usúario</a>
+					</h4>
+				</div>
+
+				<div role="tabpanel" class="panel-collapse collapse " id="collistgroup2" aria-expanded="false">
+
+					<ul class="list-group">
+						<li class="list-group-item"> <a href="#"> <i class="glyphicon glyphicon-user"></i>Criar Novo Usúario</a> </li>
+						<li class="list-group-item"> <a href="#"> <i class="glyphicon glyphicon-user"></i>Alterar Usúario</a> </li>
+						<li class="list-group-item"> <a href="#"> <i class="glyphicon glyphicon-user"></i>Excluir Usúario</a> </li>
+
+					</ul>
+					<div class="panel-footer"></div>
+					
+				</div>
+
+			</div> <!--Fim do header do panel-02-->
+
+			<!--Inicio do Bloco Collapse-03-->
+
+			<div class="panel panel-success"> <!--Inicio do header do panel-->
+				<div id="col-group3" role="tab" class="panel-heading">
+					<h4 class="panel-title">
+						<a href="#collistgroup3" aria-controls="collistgroup3" aria-expanded="true" data-toggle="collapse">
+						<span class="glyphicon glyphicon-pushpin fa-2x"></span>
+						Gerenciar-Links</a>
+					</h4>
+				</div>
+
+				<div role="tabpanel" class="panel-collapse collapse in " id="collistgroup3" aria-expanded="true">
+
+					<ul class="list-group">
+						<li class="list-group-item"> <a href="#"> <i class="glyphicon glyphicon-pushpin"></i> Criar Novo Link </a> </li>
+						<li class="list-group-item"> <a href="#"><i class="glyphicon glyphicon-pushpin"></i> Alterar Link</a> </li>
+						<li class="list-group-item"> <a href="#"><i class="glyphicon glyphicon-pushpin"></i> Excluir Link</a> </li>
+
+					</ul>
+					<div class="panel-footer"></div>
+					
+				</div>
+
+			</div> <!--Fim do header do panel-03-->
+
+
+
+			
+		</div> <!--Fim da div class sm3 acordion-->
+
+		<div class="col-sm-9"> <!--inicio da div conteudo-->
+
+			<div class="conteudo_painel">
+
+				<div class="conteudo_painel_int">
+					<ul class="nav nav-pills" role="tablist">
+						<li class="active"> <a href="#"> E-mails <span class="badge">10</span> </a></li>
+					<li class=""> <a href="#"> Avisos <span class="badge">20</span> </a></li>
+					<li class=""> <a href="#"> Mensagens <span class="badge">30</span> </a></li>
+					<li class=""> <a href="#"> Aniversariantes <span class="badge">70</span> </a></li>
+
+
+					</ul>
+					<hr>
+					<div class="well well-sm">
+						<h3>"Seja Bem Vindo Usuário ão Painel de Gerenciamento"</h3>
+						<p>Obs: Utilize o menu lateral esquerdo para acessar o painel adm...</p>
+
+					</div>
+					<div class="page-header"><h3>Avisos: <em> <i> Revise seu Painel Adm todos os dias...</i> </em> </h3> </div>
+
+					<div class="alert alert-success">
+						<strong>Parabéns!...</strong>Voçê esta Logado no Painel Adm...
+					</div>
+
+					<div class="alert alert-warning">
+						<strong>Atenção Sr-Usuário!...</strong>Voçê tem até dia 30/09/2017 para agendar suas férias...
+					</div>
+
+					<div class="row">
+						<div class="col-sm-4">
+
+							<h3>Minhas Tarefas</h3>
+
+							<ul>
+								<li> <a href="#">Ligar Para o Cliente</a> </li>
+								<li> <a href="#">Retornar E-mail Clientes</a> </li>
+								<li> <a href="#">Outras Tarefas Local</a> </li>
+
+							</ul>
+						<a href="#" class=" btn btn-primary btn-block">Criar Novas Tarefas</a>
+							
+						</div>
+
+						<div class="col-sm-4">
+
+							<h3>Minhas Tarefas</h3>
+
+							<ul>
+								<li> <a href="#">Ligar Para o Cliente</a> </li>
+								<li> <a href="#">Retornar E-mail Clientes</a> </li>
+								<li> <a href="#">Outras Tarefas Local</a> </li>
+
+							</ul>
+						<a href="#" class=" btn btn-primary btn-block">Criar Novas Tarefas</a>
+							
+						</div>
+
+						<div class="col-sm-4">
+
+							<h3>Minhas Tarefas</h3>
+
+							<ul>
+								<li> <a href="#">Ligar Para o Cliente</a> </li>
+								<li> <a href="#">Retornar E-mail Clientes</a> </li>
+								<li> <a href="#">Outras Tarefas Local</a> </li>
+
+							</ul>
+						<a href="#" class=" btn btn-primary btn-block">Criar Novas Tarefas</a>
+							
+						</div>
+
+					</div>
+
+										
+				</div>
+
+			</div>
+
+
+
+			
+		</div> <!--Fim da div conteudo-->
+
+
+	</div>
+</div>
+
+
+
+
+
+
+
+<script src="js/jquery-3.1.1.min.js"></script> <!==Use o Script js/jquery no Final da pagina==>
+<script src="js/bootstrap.min.js"></script>	<!==Use o Script js/bootstrap no Final da pagina==>
+<script src="js/main.js"></script>
+
+	
+</body>
+</html>

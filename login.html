@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+	<meta charset="UTF-8">
+	<title>Web-Mars Painel de Controle</title>
+
+	<!--Definição da viewport-->
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+	<link href="https://fonts.googleapis.com/css?family=Lato:300,400,700" rel="stylesheet">
+
+	<!--Adicinar o Css do bootstrap-->
+
+	<link rel="stylesheet" href="css/estilo.css" media="screen">
+
+	<link rel="stylesheet" href="css/bootstrap.min.css" media="screen">
+
+	<link rel="stylesheet" href="css/font-awesome.min.css">
+
+
+	<!--Adicinar o Css personalizado-->
+	<link rel="stylesheet" href="css/login.css" media="screen">
+</head>
+
+<body>
+
+<!--Inicio do painel adm-->
+
+<nav class="navbar navbar-inverse navbar-fixed-top">
+	<div class="container-fluid">
+		<!-- Brand and toggle get grouped for better mobile display -->
+		<div class="navbar-header">
+			<button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1" aria-expanded="false">
+				<span class="sr-only">Toggle navigation</span>
+				<span class="icon-bar"></span>
+				<span class="icon-bar"></span>
+				<span class="icon-bar"></span>
+			</button>
+			<a class="navbar-brand" href="#">Web Mars Ti Solutions</a>
+		</div>
+
+		
+	</div><!-- /.container-fluid -->
+</nav>
+
+<div class="container-fluid">
+	<div class="row">
+		<div class="col-xs-12">
+
+		<div class="form-login ">
+		<h4 class="text-center">Formulario-Login</h4>
+		<form action="login_submit" method="get" accept-charset="utf-8">
+		<label class="sr-only" for="I-inputemail">E-mail</label>
+		<input type="email" name="N-email" id="I-inputemail" class="form-control input-lg" placeholder="Seu-Email" required="email">
+
+		<label class="sr-only" for="I-inputsenha">E-mail</label>
+		<input type="password" name="N-senha" id="I-inputsenha" class="form-control input-lg" placeholder="Digite sua Senha" required="email">
+
+		<div class="checkbox">
+			<label>
+				<input type="checkbox" value="s">lembre-se </label>
+
+		</div>
+		<button type="submite" class="btn btn-primary btn-lg btn-block">Efetuar-Login
+		<span class="glyphicon glyphicon-ok"></span>
+		</button>
+		
+		</form>
+			
+		</div>
+	
+			
+		</div>
+		
+	</div>
+</div>
+
+
+
+
+
+
+
+<script src="js/jquery-3.1.1.min.js"></script> <!==Use o Script js/jquery no Final da pagina==>
+<script src="js/bootstrap.min.js"></script>	<!==Use o Script js/bootstrap no Final da pagina==>
+<script src="js/main.js"></script>
+
+	
+</body>
+</html>
